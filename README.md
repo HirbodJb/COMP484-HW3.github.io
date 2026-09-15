@@ -1,1 +1,3 @@
-https://csun-orm.github.io/comp484-hw3/
+This repo is for HW3
+
+Link to HW3 webpage: 
