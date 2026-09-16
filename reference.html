@@ -25,9 +25,9 @@
     <main role="main">
       <article role="article">
         <header>
-          <p>
+          <p> <!-- made the text on the first paragraph a link to the table of entities with proper accessibility attributes -->
             On this page you&rsquo;ll find a quick reference to common HTML
-            terms and a table of frequently used named character entities.
+            terms and a <a href="#table-of-entities" title="Table of named character entities" target="_self">table of frequently used named character entities.</a>
           </p>
         </header>
         <section>
@@ -168,7 +168,7 @@
             summary="A quick reference of named character entities, including an example of the character, a description, and the entity code."
           >
             <caption>
-              <h3>Common Named Character Entities</h3>
+              <h3 ID="table-of-entities">Common Named Character Entities</h3> <!--added an ID with clear description for the table so the link above works-->
             </caption>
             <tr>
               <th scope="col">Character</th>
